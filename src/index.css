@@ -1,4 +1,39 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
+/* BASIC RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  /* DARK MODE BACKGROUND */
+  body {
+    background: #000;
+    color: #fff;
+  }
+  
+  /* BUTTONS */
+  button {
+    background: #222;
+    color: #fff;
+    border: 1px solid #444;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+  
+  button:hover {
+    background: #333;
+    border-color: #666;
+  }
+  
+  /* PANELS */
+  .panel {
+    background: #111;
+    border: 1px solid #222;
+    padding: 20px;
+    border-radius: 12px;
+    width: 100%;
+  }
+  
